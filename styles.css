@@ -1,0 +1,213 @@
+body {
+    background-color: #c08787; /* Ustawienie koloru tła strony */
+    background-repeat: no-repeat; /* Uniemożliwienie powtarzania tła */
+    background-attachment: fixed; /* Ustawienie tła jako nieruchome */
+    background-position: center; /* Ustawienie pozycji tła na środku strony */
+    height: 100%;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+p {
+    font-size: 12px; /* Ustawienie wielkości tekstu w pikselach */
+}
+
+h1 {
+    font-size: 2em; /* Ustawienie wielkości tekstu w em */
+}
+
+h2 {
+    font-size: 16pt; /* Ustawienie wielkości tekstu w punktach */
+}
+
+span {
+    font-size: 120%; /* Ustawienie wielkości tekstu w procentach */
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+main {
+    margin: 20px;
+}
+
+/* Wykorzystanie em, px, pt, % */
+p {
+    font-size: 18px;
+    font-size: 1.5em;
+}
+
+/* Ustawienie tła strony */
+body {
+    background-color: #d9e75a;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Definiowanie selektorów CSS */
+#id-selector {
+    color: red;
+}
+
+.class-selector {
+    color: blue;
+}
+
+/* Właściwości box-model oraz pozycjonowanie elementów na stronie */
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    float: left;
+}
+
+/* Formatowanie tekstu oraz szerokości tekstu */
+.text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    width: 50%;
+}
+
+/* Reguły border */
+.border-example {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+}
+
+/* Stylowanie tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Użycie reguły @media */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* Pseudoklasy CSS */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+  
+  /* Pseudoklasa :nth-child(odd) zmienia tło co drugiego elementu  */
+  tr:nth-child(odd) {
+    background-color: rgb(0, 151, 58);
+  }
+
+
+  /* Stylowanie tabeli */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  /* Stylowanie komórek nagłówków */
+  th {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  /* Stylowanie komórek danych */
+  td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  /* Ustawianie szerokości kolumn */
+  td:first-child {
+    width: 30%;
+  }
+  
+  /* Dodawanie cieniowania do wierszy */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Dodawanie horyzontalnych linii oddzielających wiersze */
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+ 
+ 
+ 
+ 
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightcoral;
+    }
+  }
+
+ /* Resetowanie stylów dla listy */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stylowanie głównego menu */
+  ul.menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Stylowanie rozwijanego menu */
+  ul.submenu {
+    display: none;
+    position: absolute;
+  }
+  
+  /* Pokazywanie rozwijanego menu przy najechaniu myszą */
+  ul.menu li:hover ul.submenu {
+    display: block;
+  }
+  
+  /* Zagnieżdżone rozwijane menu */
+  ul.submenu li {
+    display: block;
+  }
+  
